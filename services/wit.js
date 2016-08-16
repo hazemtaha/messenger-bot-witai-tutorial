@@ -104,7 +104,7 @@ var actions = {
 		}
 
 		context.pics = wantedPics[Math.floor(Math.random() * wantedPics.length)]
-
+		delete context.cat
 		cb(context)
 	},
 }
