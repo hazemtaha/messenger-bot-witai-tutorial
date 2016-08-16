@@ -95,7 +95,8 @@ var actions = {
 	},
 
 	['fetch-pics'](sessionId, context, cb) {
-		var wantedPics = allPics[context.cat || default]
+		var wantedPics = allPics[context.cat || 'def']
+
 		context.pics = wantedPics[Math.floor(Math.random() * wantedPics.length)]
 
 		cb(context)
@@ -161,7 +162,7 @@ var allPics = {
 		'http://i.imgur.com/05hlAWU.jpeg',
 		'http://i.imgur.com/HAeMnSq.jpeg',
   ],
-  default: [
+  def: [
     'http://blog.uprinting.com/wp-content/uploads/2011/09/Cute-Baby-Pictures-29.jpg',
   ],
 };
