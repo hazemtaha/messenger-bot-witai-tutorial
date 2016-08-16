@@ -40,3 +40,19 @@ t=2016-08-17T00:23:14+0200 lvl=info msg="join connections" obj=join id=98ee8e35b
 t=2016-08-17T00:23:18+0200 lvl=info msg="join connections" obj=join id=cd25af4697d6 l=127.0.0.1:5000 r=173.252.90.109:25760
 t=2016-08-17T00:23:20+0200 lvl=info msg="join connections" obj=join id=a4aba4811699 l=127.0.0.1:5000 r=173.252.88.95:15259
 t=2016-08-17T00:23:24+0200 lvl=info msg="join connections" obj=join id=eafa96e9869c l=127.0.0.1:5000 r=173.252.90.243:39286
+t=2016-08-17T00:29:33+0200 lvl=warn msg="failed to open private leg" id=c56e9abba291 privaddr=localhost:5000 err="dial tcp 127.0.0.1:5000: connection refused"
+t=2016-08-17T00:29:33+0200 lvl=info msg="join connections" obj=join id=9e95dda930fb l=nil r=173.252.90.99:31123
+t=2016-08-17T00:29:34+0200 lvl=warn msg="failed to open private leg" id=6b400e8c60fb privaddr=localhost:5000 err="dial tcp 127.0.0.1:5000: connection refused"
+t=2016-08-17T00:29:34+0200 lvl=info msg="join connections" obj=join id=bdf457a7581f l=nil r=173.252.90.108:32463
+t=2016-08-17T00:29:35+0200 lvl=warn msg="failed to open private leg" id=34e38db26f8f privaddr=localhost:5000 err="dial tcp 127.0.0.1:5000: connection refused"
+t=2016-08-17T00:29:35+0200 lvl=info msg="join connections" obj=join id=e9f07be9bbcb l=nil r=173.252.88.85:52865
+t=2016-08-17T00:29:36+0200 lvl=warn msg="failed to open private leg" id=33f6d4dbdc04 privaddr=localhost:5000 err="dial tcp 127.0.0.1:5000: connection refused"
+t=2016-08-17T00:29:36+0200 lvl=info msg="join connections" obj=join id=40cac866f236 l=nil r=173.252.88.93:16919
+t=2016-08-17T00:29:38+0200 lvl=warn msg="failed to open private leg" id=1534e9eec353 privaddr=localhost:5000 err="dial tcp 127.0.0.1:5000: connection refused"
+t=2016-08-17T00:29:38+0200 lvl=info msg="join connections" obj=join id=e9d9c70f449d l=nil r=173.252.90.240:46118
+t=2016-08-17T00:29:43+0200 lvl=warn msg="failed to open private leg" id=8271f427c692 privaddr=localhost:5000 err="dial tcp 127.0.0.1:5000: connection refused"
+t=2016-08-17T00:29:43+0200 lvl=info msg="join connections" obj=join id=6ac7fba44365 l=nil r=173.252.88.89:15245
+t=2016-08-17T00:29:59+0200 lvl=warn msg="failed to open private leg" id=678c67b1d72a privaddr=localhost:5000 err="dial tcp 127.0.0.1:5000: connection refused"
+t=2016-08-17T00:29:59+0200 lvl=info msg="join connections" obj=join id=6391396e8136 l=nil r=173.252.88.84:50339
+t=2016-08-17T00:31:13+0200 lvl=warn msg="failed to open private leg" id=6a2d87a9323e privaddr=localhost:5000 err="dial tcp 127.0.0.1:5000: connection refused"
+t=2016-08-17T00:31:13+0200 lvl=info msg="join connections" obj=join id=4dcca23d5d78 l=nil r=173.252.90.116:56881

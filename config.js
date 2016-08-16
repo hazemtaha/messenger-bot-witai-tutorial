@@ -1,7 +1,7 @@
 'use strict';
 
-// const WIT_TOKEN = process.env.WIT_TOKEN
-const WIT_TOKEN = 'IP72U623OOYEEQ4EDP4WV4IR44SRJZZJ'
+const WIT_TOKEN = process.env.WIT_TOKEN
+// const WIT_TOKEN = 'IP72U623OOYEEQ4EDP4WV4IR44SRJZZJ'
 if (!WIT_TOKEN) {
   throw new Error('Missing WIT_TOKEN. Go to https://wit.ai/docs/quickstart to get one.')
 }
