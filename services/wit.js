@@ -95,7 +95,13 @@ var actions = {
 	},
 
 	['fetch-pics'](sessionId, context, cb) {
-		var wantedPics = allPics[context.cat || 'def']
+		var wantedPics
+		console.log(context.cat);
+		if (allPics[context.cat]) {
+			wantedPics = allPics[context.cat]
+		} else {
+			wantedPics = allPics['default']
+		}
 
 		context.pics = wantedPics[Math.floor(Math.random() * wantedPics.length)]
 
@@ -162,7 +168,7 @@ var allPics = {
 		'http://i.imgur.com/05hlAWU.jpeg',
 		'http://i.imgur.com/HAeMnSq.jpeg',
   ],
-  def: [
+  default: [
     'http://blog.uprinting.com/wp-content/uploads/2011/09/Cute-Baby-Pictures-29.jpg',
   ],
 };
