@@ -5,6 +5,32 @@ var FB = require('../connectors/facebook')
 var Wit = require('node-wit').Wit
 var request = require('request')
 
+// LIST OF ALL PICS
+var allPics = {
+  corgis: [
+    'http://i.imgur.com/uYyICl0.jpeg',
+    'http://i.imgur.com/useIJl6.jpeg',
+    'http://i.imgur.com/LD242xr.jpeg',
+    'http://i.imgur.com/Q7vn2vS.jpeg',
+    'http://i.imgur.com/ZTmF9jm.jpeg',
+    'http://i.imgur.com/jJlWH6x.jpeg',
+		'http://i.imgur.com/ZYUakqg.jpeg',
+		'http://i.imgur.com/RxoU9o9.jpeg',
+  ],
+  racoons: [
+    'http://i.imgur.com/zCC3npm.jpeg',
+    'http://i.imgur.com/OvxavBY.jpeg',
+    'http://i.imgur.com/Z6oAGRu.jpeg',
+		'http://i.imgur.com/uAlg8Hl.jpeg',
+		'http://i.imgur.com/q0O0xYm.jpeg',
+		'http://i.imgur.com/BrhxR5a.jpeg',
+		'http://i.imgur.com/05hlAWU.jpeg',
+		'http://i.imgur.com/HAeMnSq.jpeg',
+  ],
+  default: [
+    'http://blog.uprinting.com/wp-content/uploads/2011/09/Cute-Baby-Pictures-29.jpg',
+  ],
+};
 
 var firstEntityValue = function (entities, entity) {
 	var val = entities && entities[entity] &&
@@ -138,30 +164,3 @@ var getWeather = function (location) {
 var checkURL = function (url) {
     return(url.match(/\.(jpeg|jpg|gif|png)$/) != null);
 }
-
-// LIST OF ALL PICS
-var allPics = {
-  corgis: [
-    'http://i.imgur.com/uYyICl0.jpeg',
-    'http://i.imgur.com/useIJl6.jpeg',
-    'http://i.imgur.com/LD242xr.jpeg',
-    'http://i.imgur.com/Q7vn2vS.jpeg',
-    'http://i.imgur.com/ZTmF9jm.jpeg',
-    'http://i.imgur.com/jJlWH6x.jpeg',
-		'http://i.imgur.com/ZYUakqg.jpeg',
-		'http://i.imgur.com/RxoU9o9.jpeg',
-  ],
-  racoons: [
-    'http://i.imgur.com/zCC3npm.jpeg',
-    'http://i.imgur.com/OvxavBY.jpeg',
-    'http://i.imgur.com/Z6oAGRu.jpeg',
-		'http://i.imgur.com/uAlg8Hl.jpeg',
-		'http://i.imgur.com/q0O0xYm.jpeg',
-		'http://i.imgur.com/BrhxR5a.jpeg',
-		'http://i.imgur.com/05hlAWU.jpeg',
-		'http://i.imgur.com/HAeMnSq.jpeg',
-  ],
-  default: [
-    'http://blog.uprinting.com/wp-content/uploads/2011/09/Cute-Baby-Pictures-29.jpg',
-  ],
-};
