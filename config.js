@@ -6,12 +6,12 @@ if (!WIT_TOKEN) {
 }
 
 
-var FB_PAGE_TOKEN = process.env.FB_PAGE_TOKEN || 'EAAPCnjgJAvkBACZBidHZBZACz35igIGqULElTntgiAgVzIxVxAX7Y38Eb1N2FD2bKGZBT8OlL6a6F0qEJsWhYdWeZCdsbaZCTd13HT8QEwNPRa3owTNuAeqLG5HZAAzkOC1jiGhR90Nlb8mk3cylI0FsuZBf6lWWzMB5ZA3cXXVzgCQZDZD';
+var FB_PAGE_TOKEN = process.env.FB_PAGE_TOKEN || 'EAAZA3IL9y244BALmZCECYlj8uhHLNU7WIuvAOZANRsx5uKL0ZCaWhMWhaRSYd6wb1Mldo25gvxiNQB8ZADZCA3Lcsc9v7yJ9rMYI1a7H9HMYkHERFugUzJwYkvo0ljQoJwZBxBxWt31YyATO6HNGg2IJaF9Lfhud2lKS585qiYMFwZDZD';
 if (!FB_PAGE_TOKEN) {
 	throw new Error('Missing FB_PAGE_TOKEN. Go to https://developers.facebook.com/docs/pages/access-tokens to get one.')
 }
 
-var FB_VERIFY_TOKEN = process.env.FB_VERIFY_TOKEN || 'just_do_it'
+var FB_VERIFY_TOKEN = process.env.FB_VERIFY_TOKEN || 'verfy_token'
 
 module.exports = {
   WIT_TOKEN: WIT_TOKEN,

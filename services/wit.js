@@ -37,9 +37,9 @@ var actions = {
 			FB.newMessage(context._fbid_, message)
 		}
 
-		
+
 		cb()
-		
+
 	},
 
 	merge(sessionId, context, entities, message, cb) {
